@@ -1,0 +1,9 @@
+{
+  "name": "@vincents/common",
+  "version": "0.0.1",
+  "description": "common package",
+  "main": "index.js",
+  "author": "vincent song",
+  "license": "MIT",
+  "private": false
+}

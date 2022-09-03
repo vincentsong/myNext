@@ -1,0 +1,12 @@
+{
+  "name": "@vincents/uikit",
+  "version": "0.0.1",
+  "description": "UIKit for building apps quickly",
+  "main": "index.js",
+  "author": "vincent song",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@vincents/common": "^0.0.1"
+  }
+}
