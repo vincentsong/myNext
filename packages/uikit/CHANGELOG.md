@@ -1,5 +1,13 @@
 # @vincents/uikit
 
+## 0.0.2-next.1
+
+### Patch Changes
+
+- changed scope
+- Updated dependencies
+  - @vincentsong/common@0.0.2-next.1
+
 ## 0.0.2-next.0
 
 ### Patch Changes
