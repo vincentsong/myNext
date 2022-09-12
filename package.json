@@ -1,0 +1,10 @@
+{
+    "private": true,
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "devDependencies": {
+        "@changesets/cli": "^2.24.4"
+    }
+}
