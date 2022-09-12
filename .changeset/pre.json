@@ -1,0 +1,13 @@
+{
+  "mode": "pre",
+  "tag": "next",
+  "initialVersions": {
+    "example": "0.1.1",
+    "playground": "0.0.2",
+    "@vincentsong/common": "0.0.2",
+    "@vincentsong/uikit": "0.0.2"
+  },
+  "changesets": [
+    "tidy-geese-dream"
+  ]
+}

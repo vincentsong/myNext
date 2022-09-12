@@ -1,5 +1,12 @@
 # example
 
+## 0.1.2-next.0
+
+### Patch Changes
+
+- Updated dependencies [c7b3765]
+  - @vincentsong/uikit@0.0.3-next.0
+
 ## 0.1.1
 
 ### Patch Changes

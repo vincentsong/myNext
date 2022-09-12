@@ -1,6 +1,6 @@
 {
   "name": "@vincentsong/uikit",
-  "version": "0.0.2",
+  "version": "0.0.3-next.0",
   "description": "UIKit for building apps quickly",
   "main": "index.js",
   "author": "vincent song",
