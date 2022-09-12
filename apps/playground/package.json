@@ -1,8 +1,9 @@
 {
   "name": "playground",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "license": "MIT",
+  "private": true,
   "devDependencies": {
     "@babel/core": "^7.18.13",
     "@storybook/addon-actions": "^6.5.10",
@@ -16,7 +17,7 @@
     "babel-loader": "^8.2.5"
   },
   "dependencies": {
-    "@vincents/uikit": "^0.0.1"
+    "@vincentsong/uikit": "^0.0.2"
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
