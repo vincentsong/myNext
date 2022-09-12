@@ -1,8 +1,9 @@
 {
-  "name": "playground",
+  "name": "@vincent/playground",
   "version": "0.0.2-next.0",
   "main": "index.js",
   "license": "MIT",
+  "private": true,
   "devDependencies": {
     "@babel/core": "^7.18.13",
     "@storybook/addon-actions": "^6.5.10",
