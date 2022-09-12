@@ -1,0 +1,19 @@
+name: CI
+on: [push]
+jobs:
+  test-example:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [macos-latest, windows-latest, ubuntu-latest]
+    steps:
+      - run: echo "${{ github.actor }}"
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'yarn' # https://github.com/actions/setup-node/blob/main/docs/advanced-usage.md#caching-packages-dependencies  
+      - run: yarn install
+      - run: yarn workspace example test:nowatch
