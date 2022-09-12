@@ -1,5 +1,11 @@
 # @vincents/uikit
 
+## 0.0.3-next.1
+
+### Patch Changes
+
+- resolve #5 test issue link
+
 ## 0.0.3-next.0
 
 ### Patch Changes
