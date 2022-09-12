@@ -1,5 +1,5 @@
 {
-  "name": "@vincents/uikit",
+  "name": "@vincentsong/uikit",
   "version": "0.0.2-next.0",
   "description": "UIKit for building apps quickly",
   "main": "index.js",
@@ -7,6 +7,6 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "@vincents/common": "^0.0.2-next.0"
+    "@vincentsong/common": "^0.0.2-next.0"
   }
 }

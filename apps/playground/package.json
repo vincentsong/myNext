@@ -17,7 +17,7 @@
     "babel-loader": "^8.2.5"
   },
   "dependencies": {
-    "@vincents/uikit": "^0.0.2-next.0"
+    "@vincentsong/uikit": "^0.0.2-next.0"
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
