@@ -2,6 +2,7 @@ name: CI
 on: [push]
 jobs:
   test-example:
+    name: test example
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
@@ -18,3 +19,26 @@ jobs:
           cache: 'yarn' # https://github.com/actions/setup-node/blob/main/docs/advanced-usage.md#caching-packages-dependencies  
       - run: yarn install
       - run: yarn workspace example test:nowatch
+
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    needs: [test-example]
+    if: success() && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/release/**')
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js 16.x
+        uses: actions/setup-node@v2
+        with: 
+          node-version: 16.x
+
+      - name: Install Dependencies
+        run: yarn
+
+      - name: Create Release Pull Request
+        uses: changesets/action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
