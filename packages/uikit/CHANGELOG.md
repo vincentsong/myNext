@@ -1,5 +1,11 @@
 # @vincents/uikit
 
+## 0.0.3-next.2
+
+### Patch Changes
+
+- 0e5cace: added github action for release
+
 ## 0.0.3-next.1
 
 ### Patch Changes
