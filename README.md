@@ -2,3 +2,5 @@
 
 
 ## Getting started
+
+run `yarn install`
