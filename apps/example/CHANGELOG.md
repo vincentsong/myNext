@@ -1,5 +1,13 @@
 # example
 
+## 0.1.4
+
+### Patch Changes
+
+- 38588cd: added publish to release action
+- Updated dependencies [38588cd]
+  - @vincentsong/uikit@0.0.5
+
 ## 0.1.3
 
 ### Patch Changes
