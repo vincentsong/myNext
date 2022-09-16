@@ -1,5 +1,14 @@
 # @vincents/uikit
 
+## 0.0.3
+
+### Patch Changes
+
+- 0e5cace: added github action for release
+- 7014926: resolve #5 test issue link
+- c7b3765: Added readme
+- a43a35a: added workflow depnendency
+
 ## 0.0.3-next.2
 
 ### Patch Changes
