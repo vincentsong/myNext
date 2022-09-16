@@ -1,5 +1,14 @@
 # @vincents/uikit
 
+## 0.0.5
+
+### Patch Changes
+
+- 38588cd: added publish to release action
+- Updated dependencies [38588cd]
+- Updated dependencies [6c94553]
+  - @vincentsong/common@0.1.0
+
 ## 0.0.4
 
 ### Patch Changes

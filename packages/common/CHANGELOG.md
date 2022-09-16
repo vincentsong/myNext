@@ -1,5 +1,15 @@
 # @vincents/common
 
+## 0.1.0
+
+### Minor Changes
+
+- 6c94553: added readme to common package
+
+### Patch Changes
+
+- 38588cd: added publish to release action
+
 ## 0.0.3
 
 ### Patch Changes

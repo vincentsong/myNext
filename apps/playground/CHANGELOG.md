@@ -1,5 +1,14 @@
 # playground
 
+## 0.0.5
+
+### Patch Changes
+
+- 38588cd: added publish to release action
+- 89e6010: updated playground in readme
+- Updated dependencies [38588cd]
+  - @vincentsong/uikit@0.0.5
+
 ## 0.0.4
 
 ### Patch Changes
