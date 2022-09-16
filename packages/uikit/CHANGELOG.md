@@ -1,5 +1,11 @@
 # @vincents/uikit
 
+## 0.0.3-next.3
+
+### Patch Changes
+
+- a43a35a: added workflow depnendency
+
 ## 0.0.3-next.2
 
 ### Patch Changes
