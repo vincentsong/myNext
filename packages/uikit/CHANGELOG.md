@@ -1,5 +1,12 @@
 # @vincents/uikit
 
+## 0.0.4
+
+### Patch Changes
+
+- Updated dependencies [bc59f54]
+  - @vincentsong/common@0.0.3
+
 ## 0.0.3
 
 ### Patch Changes

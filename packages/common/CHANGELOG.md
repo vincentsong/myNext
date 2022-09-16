@@ -1,5 +1,11 @@
 # @vincents/common
 
+## 0.0.3
+
+### Patch Changes
+
+- bc59f54: updated common package
+
 ## 0.0.2
 
 ### Patch Changes

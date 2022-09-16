@@ -1,6 +1,6 @@
 {
   "name": "@vincentsong/common",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "common package",
   "main": "index.js",
   "author": "vincent song",
