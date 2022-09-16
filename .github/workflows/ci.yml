@@ -18,6 +18,7 @@ jobs:
           node-version: 16
           cache: 'yarn' # https://github.com/actions/setup-node/blob/main/docs/advanced-usage.md#caching-packages-dependencies  
       - run: yarn --frozen-lockfile
+      - run: yarn changeset status --since=main
       - run: yarn workspace example test:nowatch
 
   release:
