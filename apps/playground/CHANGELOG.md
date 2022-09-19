@@ -1,5 +1,12 @@
 # playground
 
+## 0.0.6
+
+### Patch Changes
+
+- Updated dependencies [ff3d541]
+  - @vincentsong/uikit@0.0.6
+
 ## 0.0.6-next.0
 
 ### Patch Changes

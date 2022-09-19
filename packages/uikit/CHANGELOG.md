@@ -1,5 +1,11 @@
 # @vincents/uikit
 
+## 0.0.6
+
+### Patch Changes
+
+- ff3d541: verify pre-release
+
 ## 0.0.6-next.0
 
 ### Patch Changes
