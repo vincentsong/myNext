@@ -1,5 +1,11 @@
 # playground
 
+## 0.0.7
+
+### Patch Changes
+
+- 97d4588: added readme to playground project
+
 ## 0.0.6
 
 ### Patch Changes
