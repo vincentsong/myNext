@@ -1,5 +1,11 @@
 # @vincents/uikit
 
+## 0.0.7
+
+### Patch Changes
+
+- 3221105: Update readme of UIKit, fixed typeo
+
 ## 0.0.6
 
 ### Patch Changes
