@@ -1,5 +1,0 @@
----
-"example": patch
----
-
-Moved dependency

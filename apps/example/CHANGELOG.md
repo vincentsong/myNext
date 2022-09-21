@@ -1,5 +1,11 @@
 # example
 
+## 0.1.6
+
+### Patch Changes
+
+- 1165b3b: Moved dependency
+
 ## 0.1.5
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @vincents/common
 
+## 0.1.1
+
+### Patch Changes
+
+- 89157ef: Updated README of common package
+
 ## 0.1.0
 
 ### Minor Changes
