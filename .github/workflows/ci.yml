@@ -8,7 +8,7 @@ jobs:
       matrix:
         # os: [macos-latest, windows-latest, ubuntu-latest]
         os: [ubuntu-latest]
-    environment: Staging
+    environment: Product
     steps:
       - run: echo "${{ github.actor }}"
       - run: echo "${{ vars.REST_URL }}"
