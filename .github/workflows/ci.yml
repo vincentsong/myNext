@@ -8,8 +8,10 @@ jobs:
       matrix:
         # os: [macos-latest, windows-latest, ubuntu-latest]
         os: [ubuntu-latest]
+    environment: Staging
     steps:
       - run: echo "${{ github.actor }}"
+      - run: echo "${{ vars.REST_URL }}"
       - name: Check out repository code
         uses: actions/checkout@v3
       - name: Use Node.js 16.x
